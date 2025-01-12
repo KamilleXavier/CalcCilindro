@@ -1,0 +1,51 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Define duas colunas de larguras iguais */
+    gap: 20px; /* Espaçamento entre as colunas */
+}
+
+.text-column {
+    /* Estilos da coluna de texto */
+    padding: 20px;
+}
+
+.image-column {
+    /* Estilos da coluna de imagem */
+    text-align: center; /* Alinha a imagem ao centro da coluna */
+}
+
+.image-column img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da coluna */
+}
+
+.imagem-centralizada {
+    display: block;
+    margin: 0 auto;
+}
+
+ /* Centraliza o texto */
+ h1 {
+    text-align: center;
+}
+
+/* Define a cor do texto para vermelho */
+.titulo-colorido {
+    color: #9043D9;
+}
+
+/* Define o tamanho do texto para 28 pixels */
+.titulo-grande {
+    font-size: 28px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.centralizado {
+    text-align: center;
+}
